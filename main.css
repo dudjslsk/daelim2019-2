@@ -61,6 +61,58 @@ ul li a {
     background-color: #F8E0EC;
 }
 
+.section3{
+    padding: 1px 0px 20px 0px;
+    margin: 0px 40px;
+    text-align: center;
+    background-color: #AFA9B0;
+}
+
+.section4{
+    padding: 1px 0px 20px 0px;
+    margin: 0px 40px;
+    text-align: center;
+    background-color: #99DE6B;
+}
+
+.home_title{
+    font-size: 15px;
+    color: black;
+}
+
 h3{
     margin-bottom: 30px;
+}
+
+.image-corpper-50{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radisu: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius: 50%;
+}
+
+.image-corpper-25{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radisu: 25%;
+    -moz-border-radius:25%;
+    -ms-border-radius:25%;
+    -o-border-radius:25%;
+    border-radius: 25%;
+}
+
+.image-corpper-5{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radisu: 5%;
+    -moz-border-radius:5%;
+    -ms-border-radius:5%;
+    -o-border-radius:5%;
+    border-radius: 5%;
 }
