@@ -1,5 +1,11 @@
 # 김종현 : daelim2019-2 project
 
+## 2019.10.11
+> 1. header 연습 <br>
+> 2. position: fixe 적용
+> 3. dropdown 적용
+> 4. 마우스 hover 적용
+
 ## 2019.10.02
 > 1. css grid 연습 <br>
 > 2. aside, footer area 작성 (v0.7.0)
