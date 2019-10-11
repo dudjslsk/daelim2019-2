@@ -1,5 +1,5 @@
 <!-- 
-    * index.html  v0.6.0
+    * index.html  v0.7.0
     * Updata : 2019.09.27
     * Author : JongHyun.Kim
 -->
@@ -16,21 +16,45 @@
    <title>김종현</title>
 </head>
 <body>
-    <header>
-        <div class="head">헤더영역</div>
-        <nav>
-            <ul class="ul">
-                <li>김종현</li>
-                <li><a href="#section1">메뉴1(디스플레이)</a></li>
-                <li><a href="#section2">메뉴2(이미지)</a></li>
-                <li><a href="#section3">메뉴3(오디오,비디오)</a></li>
-                <li><a href="#section4">메뉴4(유튜브)</a></li>
-                <li><a href="#section5">메뉴5</a></li>
+    <header class="full-bg">
+        <div class="container">
+            <div class="header-title">
+                Kim Jong Hyun 홈페이지
+                <p class="header-sub-title">
+                    김종현의 홈페이지 입니다.<br />
+                    2019 2학기 실습 내용을 정리했습니다.
+                </p>  
+            </div>
+            <div>
+                <a class="ghost" href="">Ghost Button Sample</a>
+            </div>          
+        </div>
+    </header>
+    <div>
+    </div>
+
+        <!-- ul,li를 이용한 메인 메뉴 -->
+        <nav class="menu1">
+            <ul>
+                <li><a href="#" class="name1">김종현</a></li>
+                <li class="name2">ONE PAGE
+                    <ul class="sub-menu">
+                      <li class="onepage"><a href="#section1" class="name2">Display</a></li>
+                      <li class="onepage"><a href="#section2" class="name2">Image</a></li>
+                      <li class="onepage"><a href="#section3" class="name2">Audio,Video</a></li>
+                      <li class="onepage"><a href="#section4" class="name2">Youtube</a></li>
+                      <li class="onepage"><a href="#section5" class="name2">Grid</a></li>
+                    </ul>
+                 </li> 
+                <li><a href="#section1" class="name2">메뉴1(Display)</a></li>
+                <li><a href="#section2" class="name2">메뉴2(Image)</a></li>
+                <li><a href="#section3" class="name2">메뉴3(Audio,Video)</a></li>
+                <li><a href="#section4" class="name2">메뉴4(Youtube)</a></li>
+                <li><a href="#section5" class="name2">메뉴5(Grid)</a></li>
             </ul>
         </nav>
-    </header>
-    <article>
-        <section class="section1"><a name="section1">
+    <article><a name="section1">
+        <section class="section1">
             <h3>9월 20일 : display 실습</h3></a>
             <div class="block">블럭1</div>
             <div class="block">블럭2</div>
@@ -38,9 +62,9 @@
         </section>
         <section class="section4"><a name="section2">
             <h2>9월 27일 : image 삽입</h2></a>
-            <img class="image-corpper-50" src="./images/autumn-4499102_640.jpg" alt="이미지 연습">
-            <img class="image-corpper-25" src="./images/autumn-4499102_640.jpg" alt="이미지 연습">
-            <img class="image-corpper-5" src="./images/autumn-4499102_640.jpg" alt="이미지 연습">
+            <img class="image-corpper-50" src="./images/sg2.jpg" alt="이미지 연습">
+            <img class="image-corpper-25" src="./images/sg3.jpg" alt="이미지 연습">
+            <img class="image-corpper-5" src="./images/sg4.jpg" alt="이미지 연습">
             <h3>3rd article<h3>
         </section>
     </article>

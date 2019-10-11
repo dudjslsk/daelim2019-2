@@ -1,11 +1,17 @@
 # 김종현 : daelim2019-2 project
 
+## 2019.10.11
+> 1. header 연습 <br>
+> 2. position: fixe 적용
+> 3. dropdown 적용
+> 4. 마우스 hover 적용(v.0.7.0)
+
 ## 2019.10.02
 > 1. css grid 연습 <br>
-> 2. aside, footer area 작성 (v0.7.0)
+> 2. aside, footer area 작성 (v0.6.0)
 > 3. 오류수정
 > 4. web font(google)적용
-> 5. anchor 내부 이동 적용 (v0.8.0)))
+> 5. anchor 내부 이동 적용 (v0.6.0)
 
 ## 2019.09.27
 #### VScode Extensions 설치
