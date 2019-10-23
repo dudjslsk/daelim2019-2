@@ -1,5 +1,10 @@
 # 김종현 : daelim2019-2 project
 
+## 2019.10.23
+> 1. Dom_Basic (script 태그 위치 옮기기 연습) <br>
+> 2. Dom_Basic2 (innerHTML 내부 글자변경)
+> 3. Dom_Time (현재시간을 1초단위로 보여줌)(v.0.8.0)
+
 ## 2019.10.11
 > 1. header 연습 <br>
 > 2. position: fixe 적용

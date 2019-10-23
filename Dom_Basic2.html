@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Object Model</title>
+    <script>
+        //이벤트를 연결합니다.
+        window.onload = function(){
+            var header = document.getElementById('header');
+            var output = '';
+
+            //변수선언
+            for ( var i = 1; i < 7; i++){
+                output += '<h'+i+'>' + 'Header - ' + i + '</h'+i+'>';
+            }
+            //문서객체 내부의 글자 변경
+            document.body.innerHTML = output;
+        };
+        </script>
+</head>
+<body>
+
+</body>
+</html>
