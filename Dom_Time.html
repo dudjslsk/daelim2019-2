@@ -15,7 +15,28 @@
                 var now = new Date();
                 clock.innerHTML = now.toString();
             }, 1000);
+
+            setInterval(function(){
+            var date = new Date();
+            var currenYear = date.getFullYear();        //Year 추출
+            var currenMonth = (date.getMonth() + 1);    //Month 추출
+            var currenDate = date.getDate();            //Date 추출
+            var currenHours = date.getHours();          //Hours 추출
+            var currenminutes = date.getMinutes();      //Minutes 추출
+            var currenSeconds = date.getSeconds();      //Seconds 추출
+            
+            var dateAll = data + "<br />" +
+                          currenYear + "년 <br />" +
+                          currenMonth + "월 <br />" +
+                          currenDate + "일 <br />" +
+                          currenHours + "시 <br />" +
+                          currenminutes + "분 <br />" +
+                          currenSeconds  + "초 <br />" +
+                          "입니다.";
+            document.body.innerHTML = dateAll;
+        }, 1000);
         };
+        
     </script>
 </head>
 <body>
