@@ -1,7 +1,11 @@
 # 김종현 : daelim2019-2 project
 
 ## 2019.10.25
-> 1. jQery 사용법 및 css속성변경<br>
+> 1. jQuery css속성변경<br>
+> 2. jQuery 문서객체 스타일적용
+> 3. jQueryAnimate 적용
+> 4. jqueryCalendar 적용
+
 
 
 ## 2019.10.23
