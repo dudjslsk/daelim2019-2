@@ -2,7 +2,7 @@
 
 ## 2019.10.25
 > 1. jQuery css속성변경<br>
-> 2. jQuery 문서객체 스타일적용
+> 2. jQuery 문서객체 스타일적용 및 이벤트 연결
 > 3. jQueryAnimate 적용
 > 4. jqueryCalendar 적용 (v.0.9.0)
 
