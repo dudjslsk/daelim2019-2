@@ -4,7 +4,7 @@
 > 1. jQuery css속성변경<br>
 > 2. jQuery 문서객체 스타일적용
 > 3. jQueryAnimate 적용
-> 4. jqueryCalendar 적용
+> 4. jqueryCalendar 적용 (v.0.9.0)
 
 ## 2019.10.23
 > 1. Dom_Basic (script 태그 위치 옮기기 연습) <br>
