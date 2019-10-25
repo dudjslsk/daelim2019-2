@@ -1,10 +1,13 @@
 # 김종현 : daelim2019-2 project
 
 ## 2019.10.25
+####  Dom_Time 수정, jQuery
 > 1. jQuery css속성변경<br>
-> 2. jQuery 문서객체 스타일적용 및 이벤트 연결
-> 3. jQueryAnimate 적용
-> 4. jqueryCalendar 적용 (v.0.9.0)
+> 2. jQuery 문서객체적용
+> 3. jQuery 스타일적용
+> 4. jQuery 이벤트 연결
+> 5. jQueryAnimate 적용
+> 6. jqueryCalendar 적용 (v.0.9.0)
 
 ## 2019.10.23
 > 1. Dom_Basic (script 태그 위치 옮기기 연습) <br>
