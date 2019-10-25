@@ -1,5 +1,9 @@
 # 김종현 : daelim2019-2 project
 
+## 2019.10.25
+> 1. jQery 사용법 및 css속성변경<br>
+
+
 ## 2019.10.23
 > 1. Dom_Basic (script 태그 위치 옮기기 연습) <br>
 > 2. Dom_Basic2 (innerHTML 내부 글자변경)
