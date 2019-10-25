@@ -6,8 +6,6 @@
 > 3. jQueryAnimate 적용
 > 4. jqueryCalendar 적용
 
-
-
 ## 2019.10.23
 > 1. Dom_Basic (script 태그 위치 옮기기 연습) <br>
 > 2. Dom_Basic2 (innerHTML 내부 글자변경)
