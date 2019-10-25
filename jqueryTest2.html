@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Test2</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+      //이벤트를 연결합니다.
+      $(document).ready(function() {
+          // 속성 추출
+        // var src = $('img').attr('src','https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kang_Seul-gi_at_Hello_Counselor_on_November_11%2C_2018_%284%29.jpg/250px-Kang_Seul-gi_at_Hello_Counselor_on_November_11%2C_2018_%284%29.jpg')
+        // var src = $('img').attr('alt', '구글_슬기_이미지');
+        // var src = $('img').attr('width', '250px');
+        // var src = $('img').attr('height', '375px');
+            // 출력합니다.
+            // $('body/').appends(src);
+        //----------------------------------------------------------------------------------------------------------------------//
+        var src = $('img').attr({
+            alt: '네이버 이미지',
+            src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kang_Seul-gi_at_Hello_Counselor_on_November_11%2C_2018_%284%29.jpg/250px-Kang_Seul-gi_at_Hello_Counselor_on_November_11%2C_2018_%284%29.jpg',
+            width: 250,
+            height: 375,
+        })
+            // 출력합니다.
+            // $('body/').appends(src);
+      });
+  </script>
+</head>
+<body>
+   <img>
+   <img>
+   <img>
+</body>
+</html>
