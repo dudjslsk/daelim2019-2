@@ -1,0 +1,342 @@
+/* 
+ * index.html v0.9.0
+ * Updata : 2019.10.25
+ * Author : JongHyun.Kim
+*/
+
+.head {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 40px;
+    margin:20px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+ h1{
+    color: #BDBDBD;
+    background: #585858;
+    text-align: center;
+}
+
+ .menu1 {
+    background: #585858;
+    display: inline;
+    margin: 0px;
+    /* position: fixed; == 위치 고정(스크롤에 영향을 안받음) */
+    position: fixed; top: 0px;
+    width: 100%;
+ }
+
+ ul > li {
+    display: inline;
+    text-decoration:none;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+ }
+/* 속에 나오는 ul > li 속성 (메뉴1)*/
+ .sub-menu { 
+    display: none;
+    position: absolute;
+    margin: 0px;
+    padding-left: 140px;
+    padding-top: 15px;
+    text-align: center;
+}
+/* 속에 나오는 ul > li 속성 (메뉴2) - padding-left만 건들기*/
+.sub-menu2 {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    padding-left: 320px;
+    padding-top: 15px;
+    text-align: center;
+}
+/* 속에 나오는 ul > li 속성 (메뉴3) - padding-left만 건들기*/
+.sub-menu3 {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    padding-left: 460px;
+    padding-top: 15px;
+    text-align: center;
+}
+/* 속에 나오는 ul > li 속성 (메뉴4) - padding-left만 건들기*/
+.sub-menu4 {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    padding-left: 630px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+ .onepage {
+    background-color: #585858;
+    display: block;
+    text-decoration:none;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: bolder;
+ }
+ 
+.name1 {
+    padding-right: 50px;
+    color: black;
+    font-size: 30px;
+    text-decoration:none;
+ }
+
+ .name2 {
+    padding-right: 75px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration:none;
+    padding-bottom: 20px;
+ }
+ .name3 {
+    font-size: 25px;
+    text-decoration:none;
+    color: black;
+    background-color: #585858;
+    font-family: 'Sunflower', sans-serif;
+ }
+
+
+.menu1 > ul > li:hover ul {
+    display: block;
+    margin: 0px;
+}
+
+
+
+.block{
+    padding: 10px;
+    margin-right: 50px;
+    font-size: 60px;
+    color: #BDBDBD;
+    background: #585858;
+    display: inline;
+    border: 3px solid;
+    font-family: 'Sunflower', sans-serif;
+    
+}
+.section1{
+    padding: 5px 0px 20px 0px;
+    margin: auto;
+    text-align: center;
+    background-color: #F8E0EC;
+}
+
+.section2{
+    text-align: center;
+    background-color: #F8E0EC;
+}
+
+.section3{
+    padding: 1px 0px 20px 0px;
+    text-align: center;
+    background-color: #AFA9B0;
+}
+
+.section4{
+    padding: 1px 0px 20px 0px;
+    text-align: center;
+    background-color: #99DE6B;
+}
+
+.section5{
+    padding: 1px 0px 20px 0px;
+    text-align: center;
+    background-color:#E1BD7B;
+}
+
+.home_title{
+    font-size: 15px;
+    color: black;
+}
+
+h3{
+    margin-bottom: 30px;
+}
+
+.image-corpper-50{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radisu: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius: 50%;
+}
+
+.image-corpper-25{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radisu: 25%;
+    -moz-border-radius:25%;
+    -ms-border-radius:25%;
+    -o-border-radius:25%;
+    border-radius: 25%;
+}
+
+.image-corpper-5{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radisu: 5%;
+    -moz-border-radius:5%;
+    -ms-border-radius:5%;
+    -o-border-radius:5%;
+    border-radius: 5%;
+}
+
+table{
+    width: 500px;
+    height: 300px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    border-color: crimson
+}
+
+.tablesize{
+    width: 25%;
+}
+
+.grid{
+    display: flex;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.BG1{
+    background-color: aqua;
+    width: 50%;
+    padding: 1px 0px 20px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.BG2{
+    background-color: chartreuse;
+    width: 50%;
+    padding: 1px 0px 20px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.BG3{
+    background-color: deeppink;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+  
+  .item3 {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    padding-top: 60px;
+    }
+
+  .item10 {
+    grid-column: 2 / span 2;
+    grid-row: 5;
+  }
+
+  aside {
+      height : 100px;
+      padding-bottom: 100px;
+      border : 5px solid red;
+      text-align: left;
+      font-family: 'Cute Font', cursive;
+
+  }
+
+  footer{
+      background: #1d1d1d;
+      padding: 20px;
+      text-align: center;
+      color : white;
+  }
+
+  .full-bg {
+      background: url(../images/sg1.jpg) no-repeat center center fixed;
+      -webkit-background-size : cover;
+      -moz-background-size : cover;
+      -o-background-size : cover;
+      background-size : cover;
+      height: 100vh;
+      width: 100%;
+      display: table; /* title 위치를 위한 display설정 */
+  }
+
+  .container {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+  }
+
+  .header-title {
+      display: inline-block;
+      width : 50%;
+      height: 140px;
+      font-size: 35px;
+      font-weight: bold;
+      padding-top: 25px;
+      background: rgba(11, 0, 73, .8);
+      color: #fff;
+  }
+
+  .header-sub-title {
+      font-size: 20px;
+      color: rgb(255, 244, 180);
+  }
+
+  .ghost{
+    display: inline-block;
+    opacity: 0.5;
+    padding-top: 50px;
+    margin-top: 70px;
+    width : 28%;
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 244, 180);
+    background: rgba(35, 162, 201, 0.8);
+    text-decoration:none;
+    border: 3px solid #fbff0a;
+  }
+
+.ghost:hover {
+    cursor: pointer;
+    background: yellowgreen;
+    opacity: 1;
+    text-decoration:none;
+    color: navy;
+    border: 3px solid red;
+  }
