@@ -27,7 +27,7 @@
                 var scrollHeight = $(window).scrollTop() + $(window).height();
                 var documentHeight = $(window).height();
                 //검사합니다.
-                if (scrollHeight == documentHeight) {
+                if (scrollHeight == $(document).height()) {
                     appendDocument();
                 }
             })
