@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jqueryMove</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+    <link rel="stylesheet" href="./CSS/vegas.min.css">
+
+</head>
+<body>
+     <!-- <script>
+        $.jqueryMove([
+           "./move/move1.mp4"
+           "./move/move2.mp4"
+        ], {duration: 1000, fade: 750});
+    </script> -->
+    <script>
+      $("body").vegas({
+        slides: [
+            // {   src : "./images/Back5.jpg" },
+            {   video : {
+                    src: [ "./move/move2.mp4" ],
+                    loop: false,
+                    mute: true
+                }
+            },
+            {   video : {
+                    src: [ "./move/move1.mp4" ],
+                    loop: false,
+                    mute: true
+                }
+            }
+        ]
+    });
+    
+    </script>
+</body>
+</html>
