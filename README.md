@@ -1,5 +1,10 @@
 # 김종현 : daelim2019-2 project
 
+## 2019.11.08
+> 1. jQuery 무한스크롤(infinityScroll)<br>
+> 2. jQuery 풀스크린적용
+> 3. jQuery VAGAS를 참조한 풀스크린애니메이션
+
 ## 2019.10.25
 ####  Dom_Time 수정, jQuery
 > 1. jQuery css속성변경<br>
