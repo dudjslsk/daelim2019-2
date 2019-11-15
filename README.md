@@ -1,5 +1,10 @@
 # 김종현 : daelim2019-2 project
 
+## 2019.11.15
+> 1. BootStrap html 연동연습<br>
+> 2. favicon(파비콘) 적용
+
+
 ## 2019.11.08
 > 1. jQuery 무한스크롤(infinityScroll)<br>
 > 2. jQuery 풀스크린적용
